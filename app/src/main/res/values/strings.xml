@@ -4,4 +4,11 @@
 
     <string name="agree">Agree</string>
     <string name= "arg">Please agree to policy terms to continue</string>
+    <string name="cd">Postcode</string>
+    <string name="hcd">Postcode</string>
+    <string name="ct">City</string>
+    <string name="hct">City</string>
+    <string name="src">Search</string>
+    <string name="hot">Enter city name</string>
+    <string name="er">Enter value!</string>
 </resources>
