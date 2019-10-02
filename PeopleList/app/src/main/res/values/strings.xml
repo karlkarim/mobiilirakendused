@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PeopleList</string>
+    <string name="firstName">First name:</string>
+    <string name="lastName">Last name:</string>
+    <string name="add">ADD</string>
+    <string name="clear">CLEAR</string>
+    <string name="app_named">ADD</string>
+    <string name="Clear">CLEAR</string>
+    <string name="hint1">Add Value</string>
+    <string name="hint2">Add Value</string>
+</resources>
