@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.Menu;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final int MENU_NAME = Menu.FIRST +1;
     public  static  final int MENU_TEXT = Menu.FIRST +2;
+    public  static final int MENU_NEXT = Menu.FIRST +3;
 
 
     //when you select item from
@@ -51,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
                 });
                 builder.show();
                 return true;
+            case MENU_NEXT:
+                Intent nextPage=new Intent(getApplicationContext(),KingActivity.class);
+                startActivity(nextPage);
         }
         return super.onContextItemSelected(item);
     }
@@ -60,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         menu.add(menu.NONE, MENU_NAME, Menu.NONE, "Kings");
         menu.add(menu.NONE, MENU_TEXT, Menu.NONE, "Description");
+        menu.add(menu.NONE, MENU_NEXT, Menu.NONE, "Next page");
 
     }
 
