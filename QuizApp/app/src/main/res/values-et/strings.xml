@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="backToMenu">Tagasi menüüsse</string>
+    <string name="correct">Õige</string>
+    <string name="dontKnow">Ma ei tea</string>
+    <string name="incorrect">Õige vastus:</string>
+</resources>
