@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FirebaseApp</string>
+    <string name="mail">Insert email</string>
+    <string name="password">Insert password</string>
+    <string name="login_btn">Login</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="forgot_btn">Forgot Password</string>
+    <string name="req">Required field entry</string>
+    <string name="emsent">Email has been sent</string>
+    <string name="emfail">Email sending failed</string>
+    <string name="enterFirst">Enter first name</string>
+    <string name="enterLast">Enter last name</string>
+    <string name="enterMail">Enter email</string>
+    <string name="enterPass">Enter password</string>
+    <string name="conPass">Confirm password</string>
+    <string name="register_btn">Register</string>
+    <string name="pasreq">Password is less than 6 figures</string>
+    <string name="signcom">Sign in complete</string>
+    <string name="nodata">No data</string>
+</resources>
